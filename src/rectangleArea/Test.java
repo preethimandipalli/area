@@ -9,6 +9,9 @@ public class Test {
 	public void test() {
 		AreaOfRec area=new AreaOfRec();
 		assertEquals(10,area.areaOfRectangle(2,5));
+		assertEquals(12,area.areaOfRectangle(2,6));
+
+		
 
 	}
 
